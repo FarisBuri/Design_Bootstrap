@@ -1,0 +1,36 @@
+.choose {
+  .container-fluid {
+    color: white;
+    text-align: center;
+    .row {
+      justify-content: space-between;
+      background-color: $mainColor;
+      .col-sm-6 {
+        padding: 0;
+        // overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        img {
+          max-width: 100%;
+          height: 350px;
+        }
+        .col-xs-12 {
+          img {
+            height: 350px;
+          }
+        }
+        h2 {
+          margin-top: 10px;
+          font-weight: bold;
+        }
+        p {
+          line-height: 1.8;
+          margin-top: 25px;
+          padding: 0 15px;
+        }
+      }
+    }
+  }
+}

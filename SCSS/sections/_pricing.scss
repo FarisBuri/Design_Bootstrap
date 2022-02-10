@@ -1,0 +1,66 @@
+.pricing {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f8f8f8;
+  .container {
+    h1 {
+      margin-bottom: 30px;
+      font-weight: bold;
+      font-size: 30px;
+    }
+    .row {
+      //   text-align: center;
+      .card {
+        margin-bottom: 30px;
+
+        img {
+          height: 200px;
+        }
+        h4 {
+          font-weight: bold;
+          font-size: 18px;
+          color: $mainColor;
+        }
+        h5 {
+          margin-top: 9px;
+          margin-bottom: 15px;
+          font-size: 15px;
+        }
+        h6 {
+          background-color: #f8f8f8;
+          padding: 9px;
+          margin-bottom: 3px;
+          font-weight: bold;
+          color: $mainColor;
+          font-size: 30px;
+          &.active {
+            background-color: red;
+            color: white;
+            font-size: 33px;
+          }
+
+          span {
+            font-size: 15px;
+          }
+        }
+        ul {
+          border: none;
+          li {
+            border: none;
+          }
+        }
+        button {
+          color: white;
+          background-color: $mainColor;
+          margin: 10px auto 20px;
+          font-weight: bold;
+          width: 70%;
+          transition: 0.3s ease-in;
+          &:hover {
+            background-color: $secondColor;
+          }
+        }
+      }
+    }
+  }
+}

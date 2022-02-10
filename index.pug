@@ -1,0 +1,76 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    //- Boostrap Links 
+    include pug/links.pug
+    title Desgin Bootstrap 
+  body 
+    //- Start Upper Bar
+    include pug/sections/upper-bar.pug
+    //- End Upper Bar
+
+    //- Start Navbar
+    include pug/sections/navbar.pug
+    //- End Navbar
+
+    //- Start Landing
+    include  pug/sections/landing.pug
+    //- End Landing
+
+    //- Start Features
+    include  pug/sections/features.pug
+    //- End  Features 
+
+    //- Start Overview
+    include  pug/sections/overview.pug
+    //- End Overview
+    //- Start Projects 
+    include  pug/sections/projects.pug
+    //- End Projects 
+
+    //- Start Post
+    include pug/sections/post.pug
+    //- End Post
+
+    //- Start testimonilase
+    include pug/sections/testimonilase.pug
+    //- End testimonilase
+
+    //- Start Pricing
+    include pug/sections/pricing.pug
+    //- End Pricing
+
+    //- Start Choose us
+    include pug/sections/choose.pug
+    //- End Choose us
+
+    //- Start Statsitc
+    include pug/sections/statsitic.pug
+    //- End Statsitic
+
+    //- Start Footer 
+    include pug/sections/footer.pug
+    //- End Footer
+    //- Bootstrap JS
+    include pug/jsLinks.pug
+
+    script
+      .
+        let winH = window.innerHeight,
+          upper = document.querySelector(".upper-bar").offsetHeight,
+          navbar = document.querySelector(".navbar").offsetHeight,
+          landing1 = document.querySelector(".slide"),
+          landing3 = document.querySelectorAll(".carousel-item");
+          landing1.style.height = (winH - (upper + navbar)) + "px";
+          landing3.forEach(e=> {
+
+
+          e.style.height = (winH - (upper + navbar)) + "px";
+
+          })
+
+
+

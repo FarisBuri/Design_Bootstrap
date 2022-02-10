@@ -1,0 +1,30 @@
+.navbar {
+  box-shadow: 0 2px 15px #ccc;
+}
+.navbar-brand {
+  span {
+    font: {
+      weight: bold;
+      size: 4vh;
+    }
+  }
+  span:first-child {
+    color: $mainColor;
+  }
+  span:last-child {
+    color: $secondColor;
+  }
+}
+
+.navbar-light {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2vh;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: $mainColor;
+  padding-right: 15px;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+  color: $secondColor;
+}

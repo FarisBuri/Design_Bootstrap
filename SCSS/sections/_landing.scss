@@ -1,0 +1,40 @@
+.slide .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+.carousel-inner h1 {
+  position: absolute;
+  z-index: 16;
+  color: white;
+  padding: 0 40px;
+  font-weight: bold;
+  max-width: 623px;
+  font-size: 41px;
+  top: 50%;
+  transform: translateY(-50%);
+  span {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: $secondColor;
+    padding: 5px 14px;
+  }
+}
+.carousel-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carosuel-one {
+  background-image: url("../../images/trent-erwin-UgA3Xvi3SkA-unsplash.jpg");
+}
+.carosuel-two {
+  background-image: url("../../images/david-travis-5bYxXawHOQg-unsplash.jpg");
+}
+.carosuel-three {
+  background-image: url("../../images/product-school-XZkk5xT8Xrk-unsplash.jpg");
+}

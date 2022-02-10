@@ -1,0 +1,26 @@
+.overview {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f0f0f0;
+  h2 {
+    font-weight: bold;
+  }
+  p {
+    color: #777;
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 30px auto;
+  }
+  span {
+    color: #777;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: block;
+  }
+  button {
+    background-color: $secondColor;
+    margin-top: 40px;
+    color: white;
+    text-transform: capitalize;
+  }
+}

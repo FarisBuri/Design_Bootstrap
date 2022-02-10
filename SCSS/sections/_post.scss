@@ -1,0 +1,38 @@
+.post {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  .container {
+    h1 {
+      margin-bottom: 30px;
+      font-weight: bold;
+      font-size: 30px;
+    }
+    .row {
+      //   text-align: center;
+      .card {
+        margin-bottom: 30px;
+
+        img {
+          height: 200px;
+        }
+        h4 {
+          font-weight: bold;
+          font-size: 18px;
+          color: $mainColor;
+        }
+        h5 {
+          margin-top: 9px;
+          margin-bottom: 15px;
+          font-size: 15px;
+        }
+        p {
+          color: #777;
+          line-height: 1.6;
+        }
+        a {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}

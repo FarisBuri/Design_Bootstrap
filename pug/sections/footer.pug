@@ -1,0 +1,31 @@
+footer 
+  .container 
+    .row 
+      .col-md-5
+        .site-info
+          span Eleite #[span Crop]
+          p Bootstrap is an HTML, CSS and JS Library that focuses on simplifying the development of informative web pages (as opposed to web apps). The primary purpose of adding it to a web project is to apply Bootstrap's choices of color, size, font and layout to that project.
+
+          a Read More
+      .col-md-4
+        .helpful-links
+          h2 helpful links
+          .row 
+            .col-sm
+              ul
+                - let array1 = ["about", "portfolio","team",  "pricing", "privacy policy"];
+                - let array2 = ["FAQ", "blog","how it works",  "benefits", "contact"];
+                - for(let i = 0; i < array1.length; i++)
+                  li #{array1[i]}
+            .col-sm    
+              ul
+                - for(let i = 0; i < array2.length; i++)
+                  li #{array2[i]}
+
+      .col-md-3
+        .contact-us.text-center
+          h2 contact us
+          ul
+            li 54958 Road Near Red Fort 
+            li #[span Phone :] 053-125-7557
+            li #[span email:] farisburi@gmail.com
